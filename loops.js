@@ -34,5 +34,5 @@ function doWhileLoop(array) {
 
   return array;
 
-  
+
 }
