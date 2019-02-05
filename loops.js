@@ -20,3 +20,19 @@ function whileLoop(n) {
 
 	return 'done';
 }
+
+
+function doWhileLoop(array) {
+
+  var i = 0;
+
+  do {
+    console.log('array.length = ' + array.length + ' and i = ' + i);
+    array = array.slice(1);
+    i+=1
+  } while (array.length > 0 && i < 5);
+
+  return array;
+
+  
+}
